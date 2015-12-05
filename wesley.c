@@ -32,8 +32,8 @@ void dataGenerator(short int *dia, short int *mes, short int *ano) {
     break;
   default:
     (*dia)++;
-    if (*dia > 30) {
-      *dia -= 30;
+    if (*dia > 31) {
+      *dia -= 31;
       (*mes)++;
     }
     if (*mes > 12) {
